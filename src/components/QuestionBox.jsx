@@ -6,7 +6,7 @@ export default function QuestionBox(props) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const questionData = data[currentQuestion];
 
-  const [mark, setMark] = useState(0);
+  const [mark, setMark] = useState(1);
   const [HighLight, setHighLight] = useState("COLOR");
 
   const { props1, updateMark } = props;
@@ -53,8 +53,8 @@ export default function QuestionBox(props) {
           ))}
         </div>
         <div className="highlite_button">
-          <button onClick={highlight}>HIGHLITE</button>
-          <button onClick={dehighlight}>DEHIGHLITE</button>
+          <button onClick={highlight}>HIGHLIGHT</button>
+          <button onClick={dehighlight}>DEHIGHLIGHT</button>
         </div>
       </div>
     </>
