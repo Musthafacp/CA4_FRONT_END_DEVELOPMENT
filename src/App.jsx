@@ -6,7 +6,7 @@ import HomePage from "./components/HomePage";
 
 function App() {
   const [pageNo, setPageNo] = useState(0);
-  const [mark, setMark] = useState(0);
+  const [mark, setMark] = useState(1);
 
   const updateState = (page) => {
     setPageNo(page);

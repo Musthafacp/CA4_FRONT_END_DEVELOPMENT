@@ -3,8 +3,6 @@ import React from 'react';
 export default function Result(props) {
   const { props1, mark } = props;
 
-  console.log(mark);
-
   const GoAgain = () => {
     props1(1);
   };
