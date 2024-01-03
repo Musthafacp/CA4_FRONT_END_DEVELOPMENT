@@ -41,7 +41,7 @@ export default function QuestionBox(props) {
   return (
     <>
       <div className="questionBox">
-        <p className="numberofQ">{`${currentQuestion + 1} of ${ data.length }`}</p>
+        <p className="numberofQ">{` Question : ${currentQuestion + 1} out of ${ data.length }`}</p>
         <h1 className="question" style={styleTheme}>
           {questionData.text}
         </h1>
