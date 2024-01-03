@@ -11,6 +11,15 @@ nav {
   align-items: center;
 }
 
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  box-shadow: 2px 2px 2px #45474b;
+  transition: box-shadow 0.5s;
+}
+
 .navHead {
   font-size: 3.2em;
 }
@@ -123,6 +132,8 @@ body{
   width: fit-content;
   text-align: center;
   height: fit-content;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
 }
 
 .innerDiv h1 {
@@ -138,7 +149,7 @@ body{
 
 .goAgain {
   text-align: center;
-  margin-top: -30%;
+  margin-top: -40%;
 }
 
 .goAgain button {
