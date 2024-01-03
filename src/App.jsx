@@ -32,7 +32,7 @@ function App() {
   };
 
   const styleTheme = {
-    backgroundColor: DARK ? "#f4cf15" : "#27374D",
+    backgroundColor: DARK ? "#FFD400" : "#27374D",
     color:DARK ? "black" : "white",
   };
   
@@ -45,8 +45,6 @@ function App() {
           {themeName}
         </button>
     </nav>
-
-
 
       {pageNo === 0 && <HomePage props1={updateState} />}
       {pageNo === 1 && <QuestionBox props1={updateState} updateMark={updateMark} />}
